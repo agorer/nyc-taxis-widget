@@ -1,0 +1,33 @@
+nav {
+    width: fit-content;
+    border: 1px solid #666;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+}
+
+nav input {
+    display: none;
+}
+
+nav label {
+    font-family: sans-serif;
+    padding: 3px 16px;
+    border-right: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+nav label:last-of-type {
+    border-right: 0;
+}
+
+nav label:hover {
+    background: #eee;
+}
+
+nav input:checked + label {
+    background: #becbff;
+}

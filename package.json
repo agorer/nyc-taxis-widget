@@ -1,0 +1,22 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "https://gist.github.com/xavijam/bf2226f8d2bb16b497f59f48ee18896d",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test:unit": "vitest src/*.test.js",
+    "test:integration": "vitest src/*.itest.js",
+    "test:e2e": "playwright test",
+    "serve": "http-server src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "http-server": "^14.1.1",
+    "jsdom": "^25.0.1",
+    "vitest": "^2.1.1"
+  }
+}

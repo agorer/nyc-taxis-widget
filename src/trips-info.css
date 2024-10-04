@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: #333;
+    background: white;
+    border: 1px solid grey;
+    font-size: 12pt;
+    border-collapse: collapse;
+}
+
+table thead th {
+    color: #777;
+    background: white;
+}
+
+table th,
+table td {
+    padding: .5em;
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+
+table td.small {
+    font-size: 10pt;
+}
+
+table td.big {
+    font-size: 14pt;
+}
